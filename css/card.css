@@ -2,13 +2,13 @@
 
 .content > div {
   border: 2px solid #fe5510;
-  margin: 0px 40px 10px 0px;
+  margin: 0px 0px 5px 0px;
   border-radius: 10px;
 }
 
 .post-card {
   background-color: #eee3ee;
-  width: 350px;
+  width: 100%;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -22,6 +22,7 @@
 .post-card-image {
   width: 100%;
   height: auto;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .post-card h2 {
@@ -31,11 +32,6 @@
 
 .fa-calendar-o {
   padding-right: 5px;
-}
-
-.fa-clock-o {
-  padding-right: 5px;
-  padding-left: 10px;
 }
 
 .read-button {
